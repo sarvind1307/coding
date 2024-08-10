@@ -21,7 +21,7 @@ int rightShift(int c, int by) { return c >> by; }
 int norOpr(int x) { return ~x; }
 int main()
 {
-  int x = 11, y = 7, z;
+  int x = 11, y = 9, z;
   z = andOpr(x, y);
   cout << "Z = " << z << endl;
   z = orOpr(x, y);
@@ -29,7 +29,7 @@ int main()
   z = xorOpr(x, y);
   cout << "Z = " << z << endl;
 
-  char c = 20, d;
+  char c = 25, d;
   d = leftShift(c, 1);
   cout << "D = " << (int)d << endl;
   d = rightShift(c, 1);
