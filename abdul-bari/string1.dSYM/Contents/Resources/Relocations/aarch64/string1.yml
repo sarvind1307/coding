@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/arvinds/arvind/coding/abdul-bari/string1'
+relocations:
+  - { offsetInCU: 0x16D10, offset: 0x16D10, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x64A30, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x16FAD, offset: 0x16FAD, size: 0x8, addend: 0x0, symName: __ZStrsIcSt11char_traitsIcEERSt13basic_istreamIT_T0_ES6_PS3_, symObjAddr: 0x88, symBinAddr: 0x100003DE0, symSize: 0x34 }
+  - { offsetInCU: 0x17021, offset: 0x17021, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x70, symBinAddr: 0x100003DC8, symSize: 0x18 }
+  - { offsetInCU: 0x1704A, offset: 0x1704A, size: 0x8, addend: 0x0, symName: __Z7string1v, symObjAddr: 0x0, symBinAddr: 0x100003D58, symSize: 0x70 }
+...
